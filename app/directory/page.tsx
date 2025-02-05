@@ -11,8 +11,10 @@ export default function Hoodie() {
 
           <ul>
           <li><Link className="text-blue-800 font-medium underline" href={"/Jacket_196912_C3"}>Jacket</Link></li>
-          <li><Link className="text-blue-800 font-medium underline" href={"/Hoodie_199305_H8"}>hoodie</Link></li>
+          <li><Link className="text-blue-800 font-medium underline" href={"/scarf"}>hoodie</Link></li>
           <li><Link className="text-blue-800 font-medium underline" href={"/TShirt_202501_A1"}>Tshirt</Link></li>
+          <li><Link className="text-blue-800 font-medium underline" href={"/pants"}>Tshirt</Link></li>
+          <li><Link className="text-blue-800 font-medium underline" href={"/sweatervest"}>Tshirt</Link></li>
           </ul>
 
 
