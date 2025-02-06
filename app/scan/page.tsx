@@ -21,6 +21,7 @@ export default function scan() {
         <Image
           src={scanqr}
           alt = "alt text"
+          sizes="100vw"
           className=" bg-[#F8F9F6] scale-50 w-full"
           />
 

@@ -22,6 +22,7 @@ export default function scarf() {
           <Image
           src={scarfimg}
           alt = "alt text"
+          sizes="100vw"
           className="aspect-[1/1.21] object-cover object-[70%_0%] w-full"
           />
 

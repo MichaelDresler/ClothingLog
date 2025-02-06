@@ -22,6 +22,7 @@ export default function pants() {
           <Image
           src={pantsimg}
           alt = "alt text"
+          sizes="100vw"
           className=" bg-[#f3f3f0] aspect-[1/1.21] object-contain object-[40%_50%] w-full"
           />
 
