@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.className} salt content-box antialiased pt-24 `}
+        className={`${geistSans.className} salt content-box antialiased pt-8`}
       >
-          <div className="flex items-center p-4 w-full h-[5.25rem] fixed z-50 bottom-0 left-0 bg-white border-none">
-            <div className=" flex items-center justify-center text-white  bg-red-600 w-full h-full rounded-md font-semibold">Offer Trade</div>
+          <div className="flex items-center p-4 w-full max-w-[600px] h-[5.25rem] fixed z-50 bottom-0 left-1/2 -translate-x-1/2 bg-white border-none">
+            <div className=" flex items-center justify-center text-white  bg-[#4D7B41] w-full h-full rounded-md font-semibold">Offer Trade</div>
           </div>
         {children}
       </body>
