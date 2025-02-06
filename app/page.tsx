@@ -3,7 +3,7 @@ import Link from "next/link";
 
 
 
-export default function Hoodie() {
+export default function Home() {
 
     return (
       <div>

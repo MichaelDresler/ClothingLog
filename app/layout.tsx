@@ -20,7 +20,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.className} salt content-box antialiased pt-24 `}
       >
-        {/* <NavBar/> */}
+          <div className="flex items-center p-4 w-full h-[5.25rem] fixed z-50 bottom-0 left-0 bg-white border-none">
+            <div className=" flex items-center justify-center text-white  bg-red-600 w-full h-full rounded-md font-semibold">Offer Trade</div>
+          </div>
         {children}
       </body>
     </html>
