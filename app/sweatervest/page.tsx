@@ -30,7 +30,7 @@ export default function sweatervest() {
 
         <section className="">
         <h2 className="text-[#577D4E] font-semibold text-xl tracking-tight pb-2">Biography</h2>
-          <p>In 2006, a foreign exchange student from Brazil received these homemade lounge pants as a gift from their host family in Vancouver. Created from old window drapes, they were worn and loved throughout the winter of 2006, but were ultimately left in Canada when the student returned home. Years later, these pants were found in the family’s closet and brought to this shop, where it was traded for a pair of boots.</p>
+          <p>In the winter of 1997, a young woman bought the knitted sweater vest in preparation for a date. After the marriage, this piece of clothing continued to keep her company, it was present when her daughter spoke her first words. When the daughter was old enough, she wore it throughout high school, whether be her filed trips, her 18th birthday or the graduation ceremony. After she left for college, the vest found its new owner with her sibling, who wore it when travelling to Japan. In 2022, the vest was found by us through their yard exchange.</p>
 
         </section>
 
