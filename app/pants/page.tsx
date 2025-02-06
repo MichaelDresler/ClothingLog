@@ -3,12 +3,17 @@ import Image from "next/image";
 import pantsimg from "@/public/pants.jpg"
 import { Timeline } from "@/app/components/Timeline"
 import { StatCard } from "../components/StatCard";
+import Link from "next/link";
 
 export default function pants() {
 
     return (
       <div>
-        <main className="pb-24 flex flex-col gap-10   ">
+        <main className="pb-24 flex flex-col gap-10 relative  ">
+
+        <div className="flex items-center p-4 w-full max-w-[600px] h-[5.25rem] fixed z-50 bottom-0 left-1/2 -translate-x-1/2 bg-white border-none">
+            <Link href={"/scan"} className=" flex items-center justify-center text-white  bg-[#4D7B41] w-full h-full rounded-md font-semibold">Offer Trade</Link>
+          </div>
 
 
         <section>

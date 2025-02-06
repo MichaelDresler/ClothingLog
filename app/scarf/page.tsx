@@ -3,12 +3,17 @@ import Image from "next/image";
 import scarfimg from "@/public/scarf.jpg"
 import { Timeline } from "@/app/components/Timeline"
 import { StatCard } from "../components/StatCard";
+import Link from "next/link";
 
 export default function scarf() {
 
     return (
       <div>
-        <main className="pb-24 flex flex-col gap-10   ">
+        <main className="pb-24 flex flex-col gap-10 relative  ">
+
+        <div className="flex items-center p-4 w-full max-w-[600px] h-[5.25rem] fixed z-50 bottom-0 left-1/2 -translate-x-1/2 bg-white border-none">
+        <Link href={"/scan"} className=" flex items-center justify-center text-white  bg-[#4D7B41] w-full h-full rounded-md font-semibold">Offer Trade</Link>
+          </div>
 
 
         <section>
@@ -31,9 +36,10 @@ export default function scarf() {
         <section>
         <h2 className="text-[#577D4E] font-semibold text-xl tracking-tight pb-4">Memories</h2>
         <div className="mt-6">
-          <Timeline date="2003" description="Sent off a close friend to Airport"/>
-          <Timeline date="2005" description="Went on a date with the one"/>
-          <Timeline isLast={true} date="2008" description="Won a massive snowball fight"/>
+          <Timeline date="2001" description="The Red Scarf was gifted to a girl by her roommate for her 21st birthday."/>
+          <Timeline date="2004" description="The girl graduated, moved out, and left the Red Scarf behind in her old home."/>
+          <Timeline date="2012" description=" The girl returned home to visit her parents and rediscovered the Red Scarf."/>
+          <Timeline isLast={true} date="2022" description="She gifted the Red Scarf to her daughter, who was heading to University."/>
           </div>
         </section>
 
