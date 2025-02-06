@@ -31,17 +31,17 @@ export default function scarf() {
         <section>
         <h2 className="text-[#577D4E] font-semibold text-xl tracking-tight pb-4">Memories</h2>
         <div className="mt-6">
-          <Timeline date="2003 February" description="Sent off a close friend to Airport"/>
-          <Timeline date="2005 November" description="Went on a date with the one"/>
-          <Timeline isLast={true} date="2005 December" description="Won a massive snowball fight"/>
+          <Timeline date="2003" description="Sent off a close friend to Airport"/>
+          <Timeline date="2005" description="Went on a date with the one"/>
+          <Timeline isLast={true} date="2008" description="Won a massive snowball fight"/>
           </div>
         </section>
 
         <section>
         <h2 className="text-[#577D4E] font-semibold text-2xl tracking-tighter pb-2">Stats</h2>
           <div className="grid grid-cols-2 gap-2">
-            <StatCard type="water" stat="Water Saved" measure="105L"/>
-            <StatCard type="cloud" stat="CO2 Saved  " measure="20kg"/>
+            <StatCard type="water" stat="Water Saved" measure="1800L"/>
+            <StatCard type="cloud" stat="CO2 Saved  " measure="5kg"/>
             <StatCard type="shirt" stat="times worn" measure="105"/>
 
 
